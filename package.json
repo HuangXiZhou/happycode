@@ -1,10 +1,14 @@
 {
   "name": "happycode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Variable name translation",
   "main": "index.js",
   "bin": {
     "happycode": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuangXiZhou/happycode.git"
   },
   "keywords": [
     "node.js",
@@ -12,6 +16,10 @@
     "npm",
     "translation"
   ],
+  "bugs": {
+    "url": "https://github.com/HuangXiZhou/happycode/issues"
+  },
+  "homepage": "https://github.com/HuangXiZhou/happycode#readme",
   "author": "Trevor <xizhouh@gmail.com>",
   "license": "MIT",
   "dependencies": {
