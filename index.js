@@ -9,8 +9,8 @@ const spinner = ora()
 
 program
   .description(chalk.green('变量名翻译（英 => 中）'))
-  .option('[keyword]', '翻译单词（中）')
-  .option('-E, --en [keyword]', '翻译单词（英）')
+  .option('<keyword>', '翻译单词（中）')
+  .option('-E, --en <keyword>', '翻译单词（英）')
   .action(keyword => {
     spinner.start(chalk.yellow('translating...')).color = 'yellow'
     translate.getText(keyword, { to: 'en' })
