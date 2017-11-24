@@ -1,0 +1,29 @@
+{
+  "name": "happycode",
+  "version": "1.0.0",
+  "description": "Variable name translation",
+  "main": "index.js",
+  "bin": {
+    "happycode": "./index.js"
+  },
+  "keywords": [
+    "node.js",
+    "bash",
+    "npm",
+    "translation"
+  ],
+  "author": "Trevor <xizhouh@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "commander": "^2.12.1",
+    "ora": "^1.3.0",
+    "translate-api": "^0.3.12"
+  },
+  "devDependencies": {
+    "chalk": "^2.3.0",
+    "commander": "^2.12.1",
+    "ora": "^1.3.0",
+    "translate-api": "^0.3.12"
+  }
+}
