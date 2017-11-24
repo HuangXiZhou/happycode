@@ -6,7 +6,7 @@
 ```bash
   Usage: happycode [options]
 
-  变量名翻译（英 => 中）
+  代码变量名翻译
 
 
   Options:

@@ -8,7 +8,7 @@ const ora       = require('ora')
 const spinner = ora()
 
 program
-  .description(chalk.green('变量名翻译（英 => 中）'))
+  .description(chalk.green('代码变量名翻译'))
   .option('<keyword>', '翻译单词（中）')
   .option('-E, --en <keyword>', '翻译单词（英）')
   .action(keyword => {
